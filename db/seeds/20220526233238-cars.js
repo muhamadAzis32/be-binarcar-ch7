@@ -9,7 +9,7 @@ module.exports = {
           plate: "DBH-3491",
           manufacture: "Ford",
           model: "F150",
-          image: "./images/car01.min.jpg",
+          image: "images/car01.min.jpg",
           rentPerDay: 200000,
           capacity: 2,
           description:
