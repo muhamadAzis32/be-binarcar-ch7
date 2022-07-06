@@ -1,24 +1,14 @@
-# Binar: Express.js
-
-Repository ini ditujukan sebagai boilerplate dalam membuat sebuah HTTP Server menggunakan Express.js
-Repository ini menggunakan Service Repository Pattern, yang artinya di dalam repository ini terdapat modul model, controller, service, dan repository.
-
 ## Getting Started
 
-Untuk mulai membuat sebuah implementasi dari HTTP Server, mulainya menginspeksi file [`app/index.js`](./app/index.js), dan lihatlah salah satu contoh `controller` yang ada di [`app/controllers/mainController.js`](./app/controllers/mainController.js)
+1. Change directory to `Backend` folder
+2. Configure `.env` file
+3. Run your Postgresql client, you can run it from pgAdmin 4
+4. Once your Postgresql client ready, you can start run this syntax in your terminal (Open your terminal first):
 
-Lalu untuk menjalankan development server, kalian tinggal jalanin salah satu script di package.json, yang namanya `develop`.
-
-```sh
-yarn develop
 ```
-
-## Database Management
-
-Di dalam repository ini sudah terdapat beberapa script yang dapat digunakan dalam memanage database, yaitu:
-
-- `yarn db:create` digunakan untuk membuat database
-- `yarn db:drop` digunakan untuk menghapus database
-- `yarn db:migrate` digunakan untuk menjalankan database migration
-- `yarn db:seed` digunakan untuk melakukan seeding
-- `yarn db:rollback` digunakan untuk membatalkan migrasi terakhir
+yarn install
+yarn db:create
+yarn db:migrate
+yarn db:seed
+yarn devop
+```
